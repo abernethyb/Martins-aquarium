@@ -1,9 +1,15 @@
 .fishList {
     background-color: mediumorchid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
 }
 
 .fish {
     background-color: mediumvioletred;
+    max-width: 15rem;
 }
 
 
