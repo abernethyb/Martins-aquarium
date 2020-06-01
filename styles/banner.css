@@ -1,3 +1,10 @@
 .banner {
     background-color: darkgoldenrod;
+    display: flex;
+
+}
+
+.banner__image {
+    max-width: 3rem;
+    padding-right: 5rem;
 }
