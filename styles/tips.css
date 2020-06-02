@@ -1,9 +1,13 @@
 .tipList {
-    background-color: dodgerblue;
+    background-color: rgba(30, 143, 255, 0.719);
     height: 100%;
+    padding: 1rem;
+    border-radius: 5%;
 }
 
 .tip {
-    background-color: royalblue;
-    padding: 3em 0em;
+    background-color: rgba(65, 105, 225, 0.76);
+    margin: 2rem 0rem;
+    max-width: 90%;
+    border-radius: 5%;
 }
