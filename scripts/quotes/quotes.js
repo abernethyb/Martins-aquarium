@@ -4,7 +4,7 @@
 */
 
 
-const quotessConverter = (quotesObject) => {
+const quotesConverter = (quotesObject) => {
 
     const quotesHTMLRepresentation = `<section class="quote">
             

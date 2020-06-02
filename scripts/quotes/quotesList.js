@@ -11,7 +11,7 @@ const quotesList = () => {
         const quotesHTML = quotesConverter(currentQuotesObject)
 
         // Find the <article> element in index.html
-        const quotesArticleElement = document.querySelector(".quotessList")
+        const quotesArticleElement = document.querySelector(".quoteList")
 
         // Put the quotes HTML representation inside the <article> element
         quotesArticleElement.innerHTML += quotesHTML
