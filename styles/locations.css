@@ -2,16 +2,16 @@
     background-color: mediumaquamarine;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     border-radius: 5%;
 }
 
 .location {
-    background-color: mediumseagreen;
-    max-width: 11rem;
-    border-radius: 5%;
+    background-color: rgb(39, 116, 73);
+    max-width: 10rem;
     margin: 1rem;
+    border-radius: 5%;
     
 }
 
@@ -28,5 +28,4 @@
     margin: 0.5rem;
     max-width: 9rem;
     min-width: 9rem;
-    max-height: 9rem;
 }
