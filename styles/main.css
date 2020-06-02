@@ -7,6 +7,7 @@
 body {
     background-color: aqua;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -22,11 +23,11 @@ body {
 .underTheBanner__left {
     display: flex;
     flex-direction: column;
-    flex: 3.5;
+    flex: 2;
     
 }
 
 .underTheBanner__right {
-    flex: 1;
+    flex: 1.2;
 
 }
