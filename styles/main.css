@@ -4,7 +4,9 @@
 @import "quotes.css";
 @import "banner.css";
 
-
+body {
+    background-color: aqua;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -26,5 +28,5 @@
 
 .underTheBanner__right {
     flex: 1;
-    
+
 }
