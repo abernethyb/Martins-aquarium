@@ -1,14 +1,22 @@
 .quoteList {
-    background-color: rgba(175, 175, 99, 0.781);
+    background-color: rgba(175, 175, 99, 0.623);
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     border-radius: 5%;
 }
 
 .quote {
-    background-color: rgba(255, 255, 0, 0.452);
+    background-color: rgba(25, 109, 22, 0.548);
     padding: 1em 0em;
     margin: 1rem;
     border-radius: 5%;
+    flex: 0 1 20%;
 }
+.quoteList h1 {
+    flex: 1 1 100%;
+    padding: 0% 50%;
+}
+

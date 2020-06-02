@@ -17,30 +17,6 @@ const fishCollection = [
         image: "https://upload.wikimedia.org/wikipedia/commons/b/bf/Pterois_volitans_Manado-e_edit.jpg"
     },
     {
-        name: "Cheezepuff",
-        species: "Cat Fish",
-        length: "24",
-        location: "The Great Indoors, mostly",
-        food: "Yes Please",
-        image: "images/cheezepuff.jpg"
-    },
-    {
-        name: "Ru",
-        species: "Grey Flounder",
-        length: "20",
-        location: "The most inconvenient place possible",
-        food: "Dry food, your food when you're not looking",
-        image: "images/ru.jpg"
-    },
-    {
-        name: "Captain Puff, Starship Boxtrot",
-        species: "Boxfish",
-        length: "24",
-        location: "Infinity",
-        food: "No time for meals, except between 12:01AM to 11:59PM",
-        image: "images/cheezeInBox.jpg"
-    },
-    {
         name: "Hercule",
         species: "Krill",
         length: "0.1",
@@ -79,6 +55,30 @@ const fishCollection = [
         location: "Right Behind You",
         food: "Clownfish, Rodger, Carl, Yournamehere",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6YorZUKBP1q239iJgprIbWD4qX4sVFe4wj82XuUL9DVdb82bg&usqp=CAU"
+    },
+    {
+        name: "Cheezepuff",
+        species: "Cat Fish",
+        length: "24",
+        location: "The Great Indoors, mostly",
+        food: "Yes Please",
+        image: "images/cheezepuff.jpg"
+    },
+    {
+        name: "Ru",
+        species: "Grey Flounder",
+        length: "20",
+        location: "The most inconvenient place possible",
+        food: "Dry food, your food when you're not looking",
+        image: "images/ru.jpg"
+    },
+    {
+        name: "Captain Puff, Starship Boxtrot",
+        species: "Boxfish",
+        length: "24",
+        location: "Infinity",
+        food: "No time for meals, except between 12:01AM to 11:59PM",
+        image: "images/cheezeInBox.jpg"
     }
 ]
 

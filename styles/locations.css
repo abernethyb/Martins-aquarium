@@ -1,4 +1,4 @@
-.locationList {
+.locationsList {
     background-color: mediumaquamarine;
     display: flex;
     flex-direction: row;
@@ -7,8 +7,8 @@
     border-radius: 5%;
 }
 
-.location {
-    background-color: rgb(39, 116, 73);
+.locations {
+    background-color: rgba(29, 15, 156, 0.384);
     max-width: 10rem;
     margin: 1rem;
     border-radius: 5%;
