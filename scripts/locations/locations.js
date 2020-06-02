@@ -10,13 +10,9 @@ const locationsConverter = (locationsObject) => {
                 alt="${locationsObject.name}" />
         </div>
         <div class="location__details">
-            <ul>
-                <li>Location: ${locationsObject.name}</li>
-                <li>Length: ${locationsObject.climate}</li>
-                <li>Name: ${locationsObject.regulations}</li>
-                <li>Location: ${locationsObject.gear}</li>
-                <li>Food: ${locationsObject.remarks}</li>
-            </ul>
+            
+                <p> The place: ${locationsObject.name}. What's the weather like? ${locationsObject.climate}. When your harvesting here, here's all the regulations you'll need to be aware of: ${locationsObject.regulations}. Be sure to bring ${locationsObject.gear} gear with you while you're harvesting here. Oh, and my advice to you while you're here: ${locationsObject.remarks}</p>
+            
         </div>
     </section>`
 

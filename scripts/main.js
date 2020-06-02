@@ -1,2 +1,3 @@
 fishList()
 locationsList()
+quotesList()
