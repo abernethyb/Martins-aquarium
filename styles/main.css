@@ -23,11 +23,11 @@ body {
 .underTheBanner__left {
     display: flex;
     flex-direction: column;
-    flex: 2;
+    flex: 3.5;
     
 }
 
 .underTheBanner__right {
-    flex: 1.2;
+    flex: 1;
 
 }

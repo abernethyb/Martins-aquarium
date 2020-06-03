@@ -22,6 +22,8 @@
 .fishList h1 {
     flex: 1 1 100%;
     padding: 0% 50%;
+    height: fit-content;
+    text-align: center;
 }
 
 
