@@ -1,18 +1,15 @@
-const tipsCollection = [
-    {
-        words: "I'm baby small batch raw denim four dollar toast succulents mustache leggings, man braid plaid pug vinyl edison bulb.",
-        author: "Martin",
-    },
-    {
-        words: "I'm baby small batch raw denim four dollar toast succulents mustache leggings, man braid plaid pug vinyl edison bulb.",
-        author: "Martin",
-    },
-    {
-        words: "I'm baby small batch raw denim four dollar toast succulents mustache leggings, man braid plaid pug vinyl edison bulb.",
-        author: "Martin",
-    },
-    {
-        words: "I'm baby small batch raw denim four dollar toast succulents mustache leggings, man braid plaid pug vinyl edison bulb.",
-        author: "Martin",
-    },
-]
+let tipsCollection = []
+
+//getting data from json server
+const getTipData = () => {
+    return fetch("http://localhost:8088/tips").then(
+        (response) => {
+            return response.json()
+        }
+    )
+    .then(
+        (arrayOfTips) => {
+            tipsCollection = arrayOfTips
+        }
+    )
+}
