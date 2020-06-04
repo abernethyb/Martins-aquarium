@@ -4,7 +4,8 @@
 */
 const fishConverter = (fishObject) => {
 
-    const fishHTMLRepresentation = `<section class="fish">
+    const fishHTMLRepresentation = `
+    <section class="fish">
         <div class="">
             <img class="fish__picture" src="${fishObject.image}"
                 alt="${fishObject.name} the ${fishObject.species}" />
