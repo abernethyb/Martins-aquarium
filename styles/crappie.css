@@ -1,6 +1,5 @@
-.holyFish {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQh2HT0AKkiCjYgvrcS9ejv7h3e-LjEuhYjux-jl4q354yGDn9I&usqp=CAU");
-    background-color: rgba(67, 70, 206, 0.61);
+.crappie {
+    background-color: rgba(67, 69, 206, 0.308);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,8 +8,8 @@
     
 }
 
-.holyFish .fish {
-    background-color: rgba(204, 192, 26, 0.774);
+.crappie .fish {
+    background-color: rgba(24, 82, 13, 0.63);
     max-width: 10rem;
     margin: 1rem;
     border-radius: 5%;
@@ -21,7 +20,7 @@
     margin-right: 1rem;
 }
 
-.holyFish h1 {
+.crappie h1 {
     flex: 1 1 100%;
     padding: 0% 50%;
     text-align: center;

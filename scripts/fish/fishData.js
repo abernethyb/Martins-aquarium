@@ -1,9 +1,9 @@
 
-const fishCollection = [
+let fishCollection = [
     {
         name: "Angus",
         species: "Parrot Fish",
-        length: "8",
+        length: 8,
         location: "Carribian",
         food: "popcorn",
         image: "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg"
@@ -11,7 +11,7 @@ const fishCollection = [
     {
         name: "Spike",
         species: "Lion Fish",
-        length: "6",
+        length: 6,
         location: "Florida",
         food: "The suffering of others",
         image: "https://upload.wikimedia.org/wikipedia/commons/b/bf/Pterois_volitans_Manado-e_edit.jpg"
@@ -19,7 +19,7 @@ const fishCollection = [
     {
         name: "Hercule",
         species: "Krill",
-        length: "0.1",
+        length: 0.1,
         location: "Florida",
         food: "Not much",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuU4Uh59-O_LLVGbBZMx6_N31EtwxrpTMBzJwmjqsGNpd0JZ9i&usqp=CAU"
@@ -27,7 +27,7 @@ const fishCollection = [
     {
         name: "Bob",
         species: "Clownfish",
-        length: "1",
+        length: 1,
         location: "Florida",
         food: "Krill",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTefXLSERpM3mk4JmjPSH-NxPZQXyQaEPeboWeqnc7i57GbyEzI&usqp=CAU"
@@ -35,7 +35,7 @@ const fishCollection = [
     {
         name: "Carl",
         species: "Cuttlefish",
-        length: "4",
+        length: 4,
         location: "Washington Coast",
         food: "Clownfish",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR31TdFzjKbHyq2fV1wY9wyan2xXGsP5U5qt4wLfVGhA2p1M7OF&usqp=CAU"
@@ -43,7 +43,7 @@ const fishCollection = [
     {
         name: "Rodger",
         species: "Hammer Head Shark",
-        length: "10",
+        length: 10,
         location: "Georgia",
         food: "Clownfish, Squid",
         image: "https://cdn.pixabay.com/photo/2020/04/10/08/44/hammerhead-shark-5024656_960_720.jpg",
@@ -51,7 +51,7 @@ const fishCollection = [
     {
         name: "Eight Ball",
         species: "Octopus",
-        length: "Unknown",
+        length: 3000,
         location: "Right Behind You",
         food: "Clownfish, Rodger, Carl, Yournamehere",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6YorZUKBP1q239iJgprIbWD4qX4sVFe4wj82XuUL9DVdb82bg&usqp=CAU"
@@ -59,7 +59,7 @@ const fishCollection = [
     {
         name: "Cheezepuff",
         species: "Cat Fish",
-        length: "24",
+        length: 24,
         location: "The Great Indoors, mostly",
         food: "Yes Please",
         image: "images/cheezepuff.jpg"
@@ -67,7 +67,7 @@ const fishCollection = [
     {
         name: "Ru",
         species: "Grey Flounder",
-        length: "20",
+        length: 20,
         location: "The most inconvenient place possible",
         food: "Dry food, your food when you're not looking",
         image: "images/ru.jpg"
@@ -75,11 +75,76 @@ const fishCollection = [
     {
         name: "Captain Puff, Starship Boxtrot",
         species: "Boxfish",
-        length: "24",
+        length: 24,
         location: "Infinity",
         food: "No time for meals, except between 12:01AM to 11:59PM",
         image: "images/cheezeInBox.jpg"
     }
 ]
+
+
+const mostHolyFish = (fishies) => {
+    const holyFish = []
+
+    for (const holy of fishies) {
+        if (holy.length % 3 === 0){
+            holyFish.push(holy)
+        }
+        
+    }
+    return holyFish
+}
+
+const mostAcceptableFish = (fishies) => {
+    const acceptableFish = []
+
+    for (const acceptable of fishies) {
+        if (acceptable.length % 5 === 0 && acceptable.length % 3 !== 0){
+            acceptableFish.push(acceptable)
+        }
+        
+    }
+    return acceptableFish
+}
+
+const crappie = (fishies) => {
+    const crappie = []
+
+    for (const crap of fishies) {
+        if (crap.length % 5 !== 0 && crap.length % 3 !== 0){
+            crappie.push(crap)
+        }
+        
+    }
+    return crappie
+}
+
+
+
+
+
+
+
+/*
+//json request
+
+const getFishData = () => {
+    return fetch(http://...).then(
+        (response) => {
+            return response.json()
+        }
+    )
+    .then(
+        (arrayOfFish) => {
+            fishCollection = arrayOfFish
+            console.log(fishCollection)
+        }
+    )
+}
+
+*/
+
+
+
 
 

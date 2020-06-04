@@ -3,6 +3,8 @@
 @import "tips.css";
 @import "quotes.css";
 @import "banner.css";
+@import "acceptableFish.css";
+@import "crappie.css";
 
 body {
     background-color: aqua;
