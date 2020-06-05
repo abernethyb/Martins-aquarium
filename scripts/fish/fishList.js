@@ -2,6 +2,58 @@
 Responsible for generating a list of fish HTML
 representations, and putting in the browser
 */
+
+//to display holy fish
+const fishTypeDropdown = document.querySelector(".typeChoice")
+
+const soldierTarget = document.querySelector(".acceptableFish")
+const crappieTarget = document.querySelector(".crappie")
+const holyTarget = document.querySelector(".holyFish")
+
+const clearSoldier = () => soldierTarget.innerHTML = ""
+const clearCrappie = () => crappieTarget.innerHTML = ""
+const clearHoly = () => holyTarget.innerHTML = ""
+
+fishTypeDropdown.addEventListener("change", clickEvent => {
+    // Get the value of the option chosen by the user
+    const userChoice = clickEvent.target.value
+
+    // If the user chose Holy, clear the list and only show holy fish
+    if (userChoice === "holy") {
+        clearSoldier()
+        clearCrappie()
+        clearHoly()
+        showHolyFish()
+    } else if (userChoice === "soldier") {
+        clearSoldier()
+        clearCrappie()
+        clearHoly()
+        showAcceptableFish()
+    } else if (userChoice === "plebs") {
+        clearSoldier()
+        clearCrappie()
+        clearHoly()
+        showCrappie()
+    } else {
+        clearSoldier()
+        clearCrappie()
+        clearHoly()
+        showHolyFish()
+        showAcceptableFish()
+        showCrappie()
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
 // Function to show holy fish in the browser
 const showHolyFish = () => {
     const fishObjectsArray = mostHolyFish(fishCollection)
