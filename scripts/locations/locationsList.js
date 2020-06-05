@@ -17,3 +17,9 @@ const locationsList = () => {
         locationsArticleElement.innerHTML += locationsHTML
     }
 }
+
+const locationVisibilityButton = document.querySelector(".toggleLocations")
+
+locationVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".locationsList").classList.toggle("hidden")
+})

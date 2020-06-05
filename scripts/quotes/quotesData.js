@@ -14,3 +14,9 @@ const getQuoteData = () => {
         }
     )
 }
+
+const quoteVisibilityButton = document.querySelector(".toggleQuotes")
+
+quoteVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".quoteList").classList.toggle("hidden")
+})
